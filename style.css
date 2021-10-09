@@ -8,6 +8,7 @@ h2 {
 
 h2.spec {
   color: gray;
+  position: fixed;
 }
 
 h3 {
@@ -33,7 +34,6 @@ p {
 
 #par {
     background-color: yellow;
-    position: absolute;
 }
 
 * {
@@ -59,12 +59,49 @@ ul {
   padding-bottom: .5em;
   padding-left: .5ex;
   padding-right: .5ex;
-  position: static;
+  position: relative;
 }
 
 p {
   margin: 0.1cm 0.1cm 0.1cm 0.1cm;
   padding: 0.05in 0.05in 1lh 1lh;
   border: 5px solid gray;
-  position: relative;
+}
+
+button:hover {
+  color: blue;
+  position: absolute;
+}
+
+button:active {
+  color: red;
+}
+
+/* flex */
+.flex-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+    background-color: lightpink;
+  }
+}
+
+/* grid */
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: lightsalmon;
+  padding: 10px;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
 }
