@@ -2,13 +2,13 @@
 h2 {
   color: green;
   background-color: lightgray;
-  display: none;
-  font-family: 'Playfair Display', serif;
+  font-family: "Sofia", sans-serif;
 }
 
 h2.spec {
   color: gray;
   position: fixed;
+  display: none;
 }
 
 h3 {
