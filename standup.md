@@ -3,15 +3,15 @@
 ## Group members:
 
 ### What did I do yesterday?
-- [ ] *coding
-- [ ] *debugging
+- [ ] *coding*
+- [ ] *debugging*
 
 ### What will I do today?
-- [ ] *writting notes
+- [ ] *writting notes*
 
 ### Any issues?
-- [ ] *tight schedule
-- [ ] *
+- [ ] *tight schedule*
+- [ ] *complex code*
 
 ### When will be approparate time to meet?
 
