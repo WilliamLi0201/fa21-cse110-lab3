@@ -90,6 +90,12 @@ button:active {
   }
 }
 
+@media screen and (max-width: 200px) {
+  body {
+    background-color: lightyellow;
+  }
+}
+
 /* grid */
 .container {
   display: grid;
