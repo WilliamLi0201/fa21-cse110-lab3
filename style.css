@@ -4,6 +4,10 @@ h2 {
   background-color: lightgray;
 }
 
+h2.spec {
+  color: gray;
+}
+
 h3 {
   color: rgb(0, 100, 200);
 }
@@ -23,3 +27,15 @@ p {
 #par {
     background-color: yellow;
 }
+
+* {
+    margin: 0;
+}
+
+li[class~="chn"] {
+    color: red;
+}
+
+cons p:first-child {
+    font-weight: bold;
+} 
