@@ -1,6 +1,6 @@
 # Daily Standup
-## Date:
-## Group members:
+## Date: ??????
+## Group members: ??????
 
 ### What did I do yesterday?
 - [ ] *coding*
