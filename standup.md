@@ -8,6 +8,9 @@
 
 ### What will I do today?
 - [ ] 
+
+### Any issues?
+- [ ] 
 - [ ] 
 
 ### When will be approparate time to meet?
