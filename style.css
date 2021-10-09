@@ -1,0 +1,25 @@
+/* change settings of h2 */
+h2 {
+  color: green;
+  background-color: lightgray;
+}
+
+h3 {
+  color: rgb(0, 100, 200);
+}
+
+h4 {
+  color: #001010;
+}
+
+p {
+  color: hsl(260, 27, 58);
+}
+
+.highlight {
+  background-color: pink;
+}
+
+#par {
+    background-color: yellow;
+}
