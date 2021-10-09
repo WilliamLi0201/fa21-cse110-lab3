@@ -15,3 +15,6 @@
 
 ### When will be approparate time to meet?
 
+### Can you meet with teammates in-person?
+
+### Days needed to finish the current OKR
