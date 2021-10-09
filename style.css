@@ -2,6 +2,8 @@
 h2 {
   color: green;
   background-color: lightgray;
+  display: none;
+  font-family: 'Playfair Display', serif;
 }
 
 h2.spec {
@@ -10,22 +12,28 @@ h2.spec {
 
 h3 {
   color: rgb(0, 100, 200);
+  display: block;
 }
 
 h4 {
   color: #001010;
+  display: inline-block;
 }
 
 p {
   color: hsl(260, 27, 58);
+  font-family: 'Playfair Display', serif;
 }
 
 .highlight {
   background-color: pink;
+  display: inline;
+  position: sticky;
 }
 
 #par {
     background-color: yellow;
+    position: absolute;
 }
 
 * {
@@ -38,4 +46,25 @@ li[class~="chn"] {
 
 cons p:first-child {
     font-weight: bold;
+    position: fixed;
 } 
+ 
+ul {
+  border: 3px solid rebeccapurple;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: .5ex;
+  padding-right: .5ex;
+  position: static;
+}
+
+p {
+  margin: 0.1cm 0.1cm 0.1cm 0.1cm;
+  padding: 0.05in 0.05in 1lh 1lh;
+  border: 5px solid gray;
+  position: relative;
+}
